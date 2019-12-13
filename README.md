@@ -1,4 +1,4 @@
-# External-Rresources
+# External-Resources
 Hey, guys! Here's a list of useful tips and resources for unit 2
 
 ## Ruby Steps:
