@@ -11,6 +11,7 @@ Hey, guys! Here's a list of useful tips and resources for unit 2
 2. **[Ruby API Document](https://ruby-doc.org/core-2.6.5/)**
 3. **[Complete Guide to the Ruby Programming World](https://rubygarage.org/blog/cool-stuff-in-ruby-language)**
 4. **[Ruby Document](https://devdocs.io/ruby/)**
+5. **[Ruby for Beginners](http://ruby-for-beginners.rubymonstas.org/index.html)**
 
 ---
 
