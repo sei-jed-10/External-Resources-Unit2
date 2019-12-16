@@ -74,7 +74,7 @@ rails g migration AddNameToMovies name:string
 ```bash
 rails g migration RemoveNameFromUsers
 ```
-**Enter the database console and use SQL commands*:** 
+**Enter the database console and use SQL commands:** 
 ```bash
 rails db
 ```
