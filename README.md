@@ -48,9 +48,96 @@ Hey, guys! Here's a list of useful tips and resources for unit 2
 ---
 
 ## Rails Commands:
-1. **Create Rails project:** in the terminal write $`rails new project_name -d mysql`
-2. **Start rails project:**  in the terminal write $`rails s`
+#### Create App
+**Create Rails project:** in the terminal write 
+```bash 
+rails new movie_app -d mysql
+```
 
+### Model Related Commands
+**Create Database within your Rails app:**  in the terminal write 
+```bash
+rails db:create
+```
+**Create a Movie model with fields:** 
+```bash
+rails g model Movie director:string
+```
+(your model name should be <ins>single/capital</ins> if table name has 2 words TableName)
+
+**Add a name column to the Movie model:** 
+```bash
+rails g migration AddNameToMovies name:string
+```
+**Remove column from table:** 
+```bash
+rails g migration RemoveNameFromUsers
+```
+**Enter the database console and use SQL commands*:** 
+```bash
+rails db
+```
+**To start migrations:** 
+```bash
+rails db:migrate
+```
+**To get a list of your migrations:** 
+```bash
+rails db:migrate:status
+``` 
+**To seed your database:** 
+```bash
+rails db:seed
+```
+**To rollback/undo a migration:** 
+```bash
+rails db:rollback
+```
+**To rollback/undo multiple migrations:** 
+```bash
+rails db:rollback STEP=2
+``` 
+(2 is an example number of migrations to roll back)
+
+**To destroy the whole databse:** 
+```bash
+rails db:drop
+```
+
+### Controller Related Commands
+**To create a new controller with index, new, show, and edit methods:** 
+```bash
+rails g controller ControllerName index new show edit
+``` 
+(your controller should be <ins> plural and capital</ins>)
+
+**To destroy a controller:** 
+```bash
+rails destroy controller ControllerName
+```
+
+### Improtant Rails Commands
+**Show all the possible Rails commands:** 
+```bash
+rails
+```
+**Show all available routes:** 
+```bash
+rails routes
+```
+**Enter the console:**
+```bash
+rails c
+```
+**Start the server:** 
+```bash
+rails s
+```
+**Start a server on a specific port:** 
+```bash
+rails s -p 3003
+```
+(3003 is an example)
 
 
 
