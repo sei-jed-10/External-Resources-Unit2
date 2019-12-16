@@ -40,7 +40,7 @@ Hey, guys! Here's a list of useful tips and resources for unit 2
 ## Active Record:
 1. **[Active Record Basics](https://guides.rubyonrails.org/active_record_basics.html)**
 2. **[Active Record Cheat Sheet](https://gist.github.com/jessieay/3131622)**
-3. **[active Record querying](https://guides.rubyonrails.org/active_record_querying.html)**
+3. **[Active Record querying](https://guides.rubyonrails.org/active_record_querying.html)**
 ---
 
 ## Asset Pipeline:
