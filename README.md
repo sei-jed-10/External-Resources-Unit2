@@ -1,6 +1,8 @@
 # External-Resources
 Hey, guys! Here's a list of useful tips and resources for unit 2
 
+**[Rico's cheatsheets](https://devhints.io/)** //Mohammed Almahdawi Shared this
+ 
 ## Ruby Steps:
 1. **Create Ruby file:** in the terminal write $touch filename.rb
 2. **Add youe code:** Add a your code inside filename.rb
@@ -34,6 +36,7 @@ Hey, guys! Here's a list of useful tips and resources for unit 2
 3. **[Rails Beginner Cheatsheet](https://www.pragtob.info/rails-beginner-cheatsheet/)**
 4. **[Rails Document](https://devdocs.io/rails~5.0/)**
 5. **[Rails API Document](https://api.rubyonrails.org/)**
+6. **[Rails cheatsheets](https://devhints.io/rails)** //Mohammed Almahdawi Shared this
 
 ---
 
